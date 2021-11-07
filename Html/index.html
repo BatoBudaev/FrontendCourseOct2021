@@ -1,10 +1,41 @@
 <!DOCTYPE html>
-<html>
+<html lang="ru">
 <head>
     <title>Заголовок</title>
     <meta charset="UTF-8">
 </head>
 <body>
- <p>фываа</p>
+<form action="handler.php" method="post">
+    <label for="name">Введите имя</label>
+    <input type="text" id="name" name="name" placeholder="Ваше имя"/>
+    <br/>
+    <label for="text">Введите текст</label>
+    <textarea id="text" name="text" placeholder="Введите текст"> </textarea>
+    <br/>
+    <label>1<input type="checkbox" value="1" name="my_checkbox"></label>
+    <label>2<input type="checkbox" value="2" name="my_checkbox"></label>
+    <label>3<input type="checkbox" value="3" name="my_checkbox"></label>
+    <br/>
+    <label>1<input type="radio" value="1" name="my_radio"></label>
+    <label>2<input type="radio" value="2" name="my_radio"></label>
+    <label>3 <input type="radio" value="3" name="my_radio"></label>
+    <br/>
+    <label for="select">Выберите значение</label>
+    <select id="select" name="select">
+        <option value="1">Значение 1</option>
+        <option value="2">Значение 2</option>
+        <option value="3">Значение 3</option>
+    </select>
+    <br/>
+    <label for="multiple_select">Выберите значение</label>
+    <select multiple id="multiple_select" name="multiple_select">
+        <option value="1">Значение 1</option>
+        <option value="2">Значение 2</option>
+        <option value="3">Значение 3</option>
+    </select>
+    <br/>
+    <button type="submit">Отправить</button>
+    <a href="page.html">Вторая страница</a>
+</form>
 </body>
 </html>
