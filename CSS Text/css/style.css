@@ -1,0 +1,41 @@
+@font-face {
+    font-family: NimbusSansNovus;
+    src: url("../font/NimbusSansNovusTOT-Reg.otf");
+}
+
+.main {
+    background-color: #FEEED6;
+    color: #67656D;
+    box-sizing: border-box;
+    max-width: 850px;
+    padding: 7px 12px 0;
+    margin: 0 auto;
+}
+
+.header {
+    font-family: NimbusSansNovus, sans-serif;
+    font-weight: normal;
+    margin: 0;
+}
+
+
+.info {
+    font-family: Arial, sans-serif;
+    font-weight: normal;
+}
+
+.content{
+    text-indent: 18px;
+    line-height: 1.5;
+    text-align: justify;
+    margin:0;
+}
+
+.blue-text {
+    color: #378DB2;
+    font-weight: bold;
+}
+
+.line-through{
+    text-decoration: line-through;
+}
