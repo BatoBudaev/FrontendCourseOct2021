@@ -1,0 +1,32 @@
+.main {
+    max-width: 860px;
+    box-sizing: border-box;
+    margin: 0 auto;
+}
+
+.employee-table {
+    width: 100%;
+    border-collapse: collapse;
+    font-family: Arial, sans-serif;
+    font-size: 20px;
+    font-weight: normal;
+    text-align: left;
+    text-indent: 10px;
+    line-height: 50px;
+}
+
+.employee-table th {
+    background-color: #3498DB;
+    border: 1px solid #CCCCCC;
+    color: #FFFFFF;
+}
+
+.employee-table td {
+    background-color: #EEEEEE;
+    border: 1px solid #CCCCCC;
+    color: #000000;
+}
+
+.employee-table tbody tr:nth-child(even) td {
+    background-color: #FFFFFF;
+}
