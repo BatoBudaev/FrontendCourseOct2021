@@ -16,19 +16,20 @@
     font-family: NimbusSansNovus, sans-serif;
     font-weight: normal;
     margin: 0;
+    font-size: xx-large;
 }
-
 
 .info {
     font-family: Arial, sans-serif;
     font-weight: normal;
+    font-size: larger;
 }
 
-.content{
+.content {
     text-indent: 18px;
     line-height: 1.5;
     text-align: justify;
-    margin:0;
+    margin: 0;
 }
 
 .blue-text {
@@ -36,6 +37,6 @@
     font-weight: bold;
 }
 
-.line-through{
+.line-through {
     text-decoration: line-through;
 }
