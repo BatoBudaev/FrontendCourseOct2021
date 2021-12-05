@@ -1,5 +1,5 @@
 .main {
-    width: 860px;
+    max-width: 860px;
     box-sizing: border-box;
     margin: 0 auto;
 }
@@ -10,22 +10,22 @@
     font-family: Arial, sans-serif;
     font-size: 20px;
     text-align: left;
-    text-indent: 10px;
-    line-height: 50px;
 }
 
 .employee-table th {
     background-color: #3498DB;
-    border: 1px solid #CCCCCC;
-    color: #FFFFFF;
+    border: 1px solid #CCC;
+    color: #FFF;
+    padding: 12px;
 }
 
 .employee-table td {
-    background-color: #EEEEEE;
-    border: 1px solid #CCCCCC;
-    color: #000000;
+    background-color: #EEE;
+    border: 1px solid #CCC;
+    color: #000;
+    padding: 12px;
 }
 
 .employee-table tbody tr:nth-child(even) td {
-    background-color: #FFFFFF;
+    background-color: #FFF;
 }
