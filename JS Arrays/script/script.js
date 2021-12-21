@@ -19,7 +19,7 @@
         }
 
         return sum;
-    })
+    }, 0);
 
     console.log("Сумма четных чисел: " + evenNumbersSum)
 })();
